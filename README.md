@@ -2,6 +2,8 @@
 
 ## Scope
 
+Our aim is to provide guidance to setting up NixOS as a WSL.
+
 ## Steps
 
 ### 1. Create a NixOS WSL distribution 
