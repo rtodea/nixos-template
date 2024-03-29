@@ -26,6 +26,11 @@ sudo nix-channel --update
 
 > :warning: Please note the configuration files are setup for myself (robert) and you might need to update relevant parts of the files 
 
+
+### 3. Run the commands
+
+
+
 ## Online References
 
 1. [NixOS and Flakes Book - _Getting Started with Home Manager_](https://nixos-and-flakes.thiscute.world/nixos-with-flakes/start-using-home-manager)
@@ -36,3 +41,4 @@ sudo nix-channel --update
 5. [nixos-rebuild Command Examples in Linux](https://www.thegeekdiary.com/nixos-rebuild-command-examples-in-linux/)
 6. [Nix Reference Manual - `nix-repl`](https://nix.dev/manual/nix/2.18/command-ref/new-cli/nix3-repl)
 7. [IogaMaster - _HOW to REALLY learn NixOS_](https://www.youtube.com/watch?v=1ED9b7ERTzI&ab_channel=IogaMaster)
+8. [Introduction to Flakes | NixOS & Flakes Book](https://nixos-and-flakes.thiscute.world/nixos-with-flakes/introduction-to-flakes)
