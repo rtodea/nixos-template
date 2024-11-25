@@ -29,7 +29,27 @@ sudo nix-channel --update
 
 ### 3. Run the commands
 
+> _TODO_
+>
+> Add notes
 
+### 4. Sample dev environment
+
+```nix
+{ pkgs ? import <nixpkgs> {} }:
+  pkgs.mkShell {
+    # nativeBuildInputs is usually what you want -- tools you need to run
+    nativeBuildInputs = with pkgs.buildPackages;
+    [
+        ruby_3_3
+        sqlite
+    ];
+}
+```
+
+```bash
+NIXPKGS_ALLOW_UNFREE=1 nix-shell --impure
+```
 
 ## Online References
 
